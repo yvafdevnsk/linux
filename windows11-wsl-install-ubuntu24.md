@@ -155,4 +155,17 @@ wsl -l -v
 
 ターミナルを起動する。  
 スタートメニュー >> すべて >> ターミナル  
-タブの横のドロップダウンアイコン(▼)からUbuntuを選択する。
+  
+タブの横のドロップダウンアイコン(▼)からUbuntuを選択する。  
+  
+![Windows Terminal ドロップダウンメニュー](/image/windows11-wsl-install-ubuntu24-1.png)
+
+WSLを終了する。タブが1つの場合はWindows Terminalのウインドウが閉じる。
+
+```
+<ユーザー名>@<パソコン名>: $ logout
+```
+
+### 参考情報
+
+- [WSL 開発環境を設定する >> Windows Terminalの設定](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#set-up-windows-terminal)
