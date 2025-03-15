@@ -160,12 +160,29 @@ wsl -l -v
   
 ![Windows Terminal ドロップダウンメニュー](/image/windows11-wsl-install-ubuntu24-1.png)
 
-WSLを終了する。タブが1つの場合はWindows Terminalのウインドウが閉じる。
+パッケージの更新とアップグレードを実施する。
 
 ```
-<ユーザー名>@<パソコン名>: $ logout
+<ユーザー名>@<パソコン名>: $ sudo apt update && sudo apt upgrade
+```
+
+WSLを終了する。PowerShellのコマンドラインから入力する。
+
+```
+PS C:\Users\<ユーザー名>> wsl --shutdown
+```
+
+その後、タブ横のドロップダウンアイコン(▼)からUbuntuを選択して起動する。再度パッケージの更新とアップグレードを実施する。ちゃんと適用済みになっている。
+
+```
+<ユーザー名>@<パソコン名>: $ sudo apt update && sudo apt upgrade
+```
+
+```
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 ```
 
 ### 参考情報
 
 - [WSL 開発環境を設定する >> Windows Terminalの設定](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#set-up-windows-terminal)
+- [WSL 開発環境を設定する >> パッケージの更新とアップグレード](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#update-and-upgrade-packages)
