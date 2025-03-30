@@ -6,3 +6,4 @@
 - [AWS EC2インスタンスにWSL2上のUbuntuからSSHで接続する](https://github.com/yvafdevnsk/linux/blob/main/wsl2-ubuntu-ssh-aws-ec2.md)
 - [AWS EC2インスタンスにWSL2上のUbuntuからSCPでファイルをコピーする](https://github.com/yvafdevnsk/linux/blob/main/wsl2-ubuntu-scp-aws-ec2.md)
 - [シェルスクリプトで拡張子なしのファイル名を取得する](https://github.com/yvafdevnsk/linux/blob/main/shell-file-name-without-extension-list.md)
+- [シェルスクリプトで連想配列を使ってファイル名とファイルサイズのリストを出力する](https://github.com/yvafdevnsk/linux/blob/main/shell-file-name-and-size-list.md)
