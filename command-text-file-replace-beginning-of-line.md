@@ -13,7 +13,7 @@
 
 行頭がダブルクォーテーションで括られた '"apple"' だったら '"ume"' に書き換える。
 ```
-awk '{ if (tolower($0) ~ /^"apple"/) $0 = "\"ume\"" substr($0, 8); print }' filename.txt >> tempfile && mv tempfile filename.txt
+awk '{ if (tolower($0) ~ /^"apple"/) $0 = "\"ume\"" substr($0, 8); print }' filename.txt > tempfile && mv tempfile filename.txt
 ```
 
 実行結果
@@ -43,7 +43,8 @@ Patterns >> Recognized Escape Sequences
 IBM AI 7.2 'awk substr(String, Start, Count)'  
 Actions >> Built-in Functions >> String Functions >> substr(String, Start, Count)  
 [https://www.ibm.com/docs/en/aix/7.2.0?topic=awk-command#awk__a171c125d__title__1](https://www.ibm.com/docs/en/aix/7.2.0?topic=awk-command#awk__a171c125d__title__1)  
-StringのStartからCount数の文字列を取得する。Startは1から始まる。Countを省略した場合は最後まで。
+StringのStartからCount数の文字列を取得する。Startは1から始まる。Countを省略した場合は最後まで。  
+ここではダブルクォーテーションで括られた '"apple"' が7文字なので次の8文字目から文字列を取得している。
 
 ## 行頭が指定した文字列に一致した行数を出力する
 
