@@ -9,3 +9,4 @@
 - [シェルスクリプトで連想配列を使ってファイル名とファイルサイズのリストを出力する](https://github.com/yvafdevnsk/linux/blob/main/shell-file-name-and-size-list.md)
 - [WSL2上のUbuntu24.04.2(LTS)にJava17(LTS)のJDKをインストールする](https://github.com/yvafdevnsk/linux/blob/main/wsl2-ubuntu-install-java17.md)
 - [WSL2上のUbuntu24.04.2(LTS)にApache Maven 3.9.9をインストールする](https://github.com/yvafdevnsk/linux/blob/main/wsl2-ubuntu-install-apache-maven-3.9.9.md)
+- [コマンドでテキストファイルの各行の行頭の固定桁を書き換えて上書きする](https://github.com/yvafdevnsk/linux/blob/main/command-text-file-replace-beginning-of-line.md)
