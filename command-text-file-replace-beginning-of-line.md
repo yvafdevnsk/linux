@@ -24,3 +24,10 @@ sed -i 's/^"apple"/"ume"/' filename.txt
 "mikan","bbbb","ccc","dd","e"
 "ume","bbbb","ccc","dd","e"
 ```
+
+## 行頭が指定した文字列に一致した行数を出力する
+
+行頭が大文字小文字を無視して '"apple"' だったらカウントする。
+```
+grep -i '^"apple"' filename.txt | wc -l
+```
