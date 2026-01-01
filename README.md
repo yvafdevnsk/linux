@@ -1,5 +1,8 @@
 # Linux
 
+## 2026
+- [WSL2上のUbuntu24.04.3(LTS)にJava25(LTS)のJDKをインストールする](https://github.com/yvafdevnsk/linux/blob/main/wsl2-ubuntu-install-java25.md)
+
 ## 2025
 - [Debian12にJava21(LTS)をインストールする](https://github.com/yvafdevnsk/linux/blob/main/debian12-install-java21.md)
 - [Windows11にWSL2でUbuntu24.04.2(LTS)をインストールする](https://github.com/yvafdevnsk/linux/blob/main/windows11-wsl-install-ubuntu24.md)
